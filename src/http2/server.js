@@ -1,6 +1,6 @@
 import http2 from "http2";
 
-import { localCert, localKey } from "../contants.js";
+import { localCert, localKey } from "../constants.js";
 
 export function initServer(port) {
     // initialize secure server
