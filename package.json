@@ -4,7 +4,9 @@
     "description": "",
     "type": "module",
     "scripts": {
-        "http-server": "nodemon src/http-server/main.js"
+        "keygen": "./keygen.sh",
+        "http-server": "nodemon src/http-server/main.js",
+        "http2-server": "nodemon src/http2-server/main.js"
     },
     "keywords": [],
     "author": "",

@@ -6,11 +6,11 @@ export function initServer(port) {
         const body = "hello client!";
 
         // send response body and end
-        console.info("server: responding to request...");
+        console.log("server: responding to request...");
         response.end(body);
     });
 
     // start server
     server.listen(port);
-    console.info(`server started: http://locahost:${port}`);
+    console.log(`server started: http://locahost:${port}`);
 }
