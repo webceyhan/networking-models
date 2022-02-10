@@ -9,11 +9,13 @@
     "scripts": {
         "keygen": "./keygen.sh",
         "http-sse": "nodemon src/http-sse/main.js",
+        "websocket": "nodemon src/websocket/main.js",
         "http-server": "nodemon src/http-server/main.js",
         "http2-server": "nodemon src/http2-server/main.js"
     },
     "dependencies": {
-        "eventsource": "^1.1.0"
+        "eventsource": "^1.1.0",
+        "ws": "^8.5.0"
     },
     "devDependencies": {
         "@types/node": "^14.11.2",
