@@ -8,10 +8,11 @@
     "type": "module",
     "scripts": {
         "keygen": "./keygen.sh",
-        "http-sse": "nodemon src/http-sse/main.js",
-        "websocket": "nodemon src/websocket/main.js",
         "http-server": "nodemon src/http-server/main.js",
-        "http2-server": "nodemon src/http2-server/main.js"
+        "http2-server": "nodemon src/http2-server/main.js",
+        "long-polling": "nodemon src/long-polling/main.js",
+        "websocket": "nodemon src/websocket/main.js",
+        "http-sse": "nodemon src/http-sse/main.js"
     },
     "dependencies": {
         "eventsource": "^1.1.0",
