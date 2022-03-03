@@ -23,7 +23,7 @@
         "sse": "nodemon src/sse/main.js"
     },
     "dependencies": {
-        "eventsource": "^1.1.0",
+        "eventsource": "^2.0.0",
         "ws": "^8.5.0"
     },
     "devDependencies": {
